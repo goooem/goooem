@@ -1,0 +1,19 @@
+# Environment & Secrets
+.env*
+*.env
+tokens.json
+config.json
+
+# Local Browser Profiles
+browser-profile/
+chrome-profile/
+
+# Internal Tooling & Scratch
+scripts/
+memory/
+GUIDE.md
+docs/ARCHITECTURE_MAP.md
+
+# OS Artifacts
+.DS_Store
+Thumbs.db
