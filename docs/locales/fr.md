@@ -4,7 +4,7 @@
 
 ---
 
-# Julian Vane (`@julesvane`)
+# Julian Vane (`@goooem`)
 
 > Ingénieur en Systèmes Embarqués & Traitement Numérique du Signal Audio (DSP) Temps Réel  
 > Basé à Göteborg, Suède · À la frontière des registres matériels et de l'acoustique analogique.
@@ -56,25 +56,25 @@ Je conçois des micrologiciels (firmwares) déterministes, des pipelines audio t
 
 ## 📦 Projets Open Source Sélectionnés
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *Rééchantillonneur FIR polyphase C++20 en fichier d'en-tête unique, accéléré par SIMD.*
 - Aucune allocation dynamique sur le tas (heap) après la phase d'initialisation.
 - Prise en charge native d'AVX2, d'ARM NEON et d'une solution de secours portable.
 - Atténuation de bande coupée à phase linéaire > 110 dB sur tout le spectre audible.
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *Bibliothèque bare-metal de traitement numérique du signal pour microcontrôleurs ARM Cortex-M.*
 - Cascades de filtres biquadratiques en virgule fixe Q15 et Q31.
 - Routines FFT fenêtrées en temps réel avec nombre de cycles d'horloge déterministe.
 - Optimisé pour la détection d'anomalies acoustiques sur des équipements aux ressources énergétiques limitées.
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *Démon de télémétrie acoustique sous-marine résilient écrit en Rust sûr (`no_std`).*
 - Conçu pour les modems acoustiques et les liaisons satellites à fort taux de perte de paquets.
 - Compaction de file d'attente à priorité évitant tout débordement de tampon lors des interruptions réseau.
-- Banc de tests unitaires automatisé s'exécutant sur matériel simulé sous QEMU.
+- Suite de tests unitaires rigoureuse s'exécutant sur matériel simulé sous QEMU.
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *Micrologiciel de contrôleur rotatif haptique matériel libre pour musiciens et concepteurs sonores.*
 - Retour d'effort sur encodeur magnétique en boucle fermée avec lissage de vélocité PID.
 - Prise en charge native de l'échange de propriétés haute résolution de la norme USB MIDI 2.0.
@@ -108,5 +108,5 @@ Loin des consoles séries et des connecteurs de programmation :
 
 - **Courriel** : `julian@vane-systems.se` (Clé PGP disponible sur keys.openpgp.org)
 - **Matrix** : `@jules:matrix.org`
-- **Mastodon** : `@julesvane@merveilles.town`
+- **Mastodon** : `@goooem@merveilles.town`
 - **Localisation** : Göteborg, Västra Götaland, Suède [57.7089° N, 11.9746° E]

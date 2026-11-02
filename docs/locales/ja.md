@@ -4,7 +4,7 @@
 
 ---
 
-# ジュリアン・ヴェイン (`@julesvane`)
+# ジュリアン・ヴェイン (`@goooem`)
 
 > 組み込みシステム＆リアルタイム音響DSPエンジニア  
 > スウェーデン・ヨーテボリ在住 · ハードウェアレジスタとアナログ音響の狭間で活動中。
@@ -56,25 +56,25 @@
 
 ## 📦 主なオープンソースプロジェクト
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *C++20によるヘッダーオンリーSIMD高速化多相（ポリフェーズ）FIRリサンプラー。*
 - 初期化完了後のランタイムヒープメモリ割り当てゼロ。
 - AVX2、ARM NEON、ポータブルなフォールバック実装を完備。
 - 可聴全帯域にわたり直線位相阻止帯域減衰量 110 dB以上を達成。
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *ARM Cortex-Mマイクロコントローラ向けベアメタルデジタル信号処理ライブラリ。*
 - 固定小数点Q15およびQ31対応のバイクアッド（双二次）フィルタカスケード。
 - 確定的なサイクル数を保証するリアルタイム窓関数付きFFTルーチン。
 - 電力制約が厳しいエッジ環境における音響異常イベント検知に特化。
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *安全な `no_std` Rustで書かれた高耐障害音響テレメトリデーモン。*
 - パケット損失率の高い断続的な水中音響モデムおよび衛星アップリンク回線に対応。
 - 通信断絶時のバッファオーバーフローを防ぐ優先度キュー圧縮機構を搭載。
 - QEMUシミュレートハードウェア上で完結する単体テストハーネスを内蔵。
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *音楽家およびサウンドデザイナー向けオープンハードウェア触覚ロータリーコントローラファームウェア。*
 - PID速度平滑化を備えた閉ループ磁気式エンコーダフィードバック。
 - ネイティブUSB MIDI 2.0高解像度プロパティエクスチェンジ（Property Exchange）対応。
@@ -108,5 +108,5 @@
 
 - **メール**: `julian@vane-systems.se` (PGP鍵は keys.openpgp.org で公開)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **所在地**: スウェーデン・ヴェストラ・イェータランド県ヨーテボリ [北緯 57.7089°, 東経 11.9746°]

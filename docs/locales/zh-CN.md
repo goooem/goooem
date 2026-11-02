@@ -4,7 +4,7 @@
 
 ---
 
-# 朱利安·韦恩 (`@julesvane`)
+# 朱利安·韦恩 (`@goooem`)
 
 > 嵌入式系统与实时音频数字信号处理（DSP）工程师  
 > 现居瑞典哥德堡 · 游走于硬件寄存器与模拟声学的临界边缘。
@@ -56,25 +56,25 @@
 
 ## 📦 代表性开源项目
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *基于 C++20 的单头文件、SIMD 硬件加速多相（Polyphase）FIR 重采样库。*
 - 初始化后运行时堆内存零动态分配。
 - 涵盖 AVX2、ARM NEON 原生优化及高通用性回退实现。
 - 全可听频段内线性相位阻带衰减抑制比 > 110 dB。
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *针对 ARM Cortex-M 微控制器深度定制的裸机数字信号处理函数库。*
 - 定点 Q15 与 Q31 双二阶（Biquad）IIR 级联滤波器。
 - 保证精确执行时钟周期的实时加窗快速傅里叶变换（FFT）程序。
 - 专为能耗极度受限的边缘声学异常事件触发检测而优化。
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *使用纯安全 `no_std` Rust 开发的高抗损水下声学遥测守护进程。*
 - 专门应对高丢包率、断续的水下声学调制解调器与卫星通信链路。
 - 内置带优先级的内存队列紧缩机制，彻底杜绝通讯黑障期的缓冲区溢出。
-- 配备可在 QEMU 模拟芯片环境中闭环运行的自动化单元测试集。
+- 配备可在 QEMU 模拟芯片环境中闭环运行的高覆盖率单元测试集。
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *面向音乐创作者与声音设计师的开源触觉旋钮控制器固件。*
 - 结合 PID 速度平滑滤波算法的闭环磁编码器动力反馈。
 - 原生支持 USB MIDI 2.0 高精度属性交换（Property Exchange）协议规范。
@@ -108,5 +108,5 @@
 
 - **电子邮箱**: `julian@vane-systems.se` (PGP 公钥可于 keys.openpgp.org 检索)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **物理坐标**: 瑞典·西约塔兰省·哥德堡 [北纬 57.7089°, 东经 11.9746°]

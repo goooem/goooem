@@ -4,7 +4,7 @@
 
 ---
 
-# Julian Vane (`@julesvane`)
+# Julian Vane (`@goooem`)
 
 > Ingenieur für Eingebettete Systeme & Echtzeit-Audio-DSP  
 > Ansässig in Göteborg, Schweden · Tätig an der Schnittstelle von Hardware-Registern und analoger Akustik.
@@ -56,25 +56,25 @@ Ich entwickle deterministische Firmware, harte Echtzeit-Audiopipelines und Edge-
 
 ## 📦 Ausgewählte Open-Source-Projekte
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *Header-only SIMD-beschleunigter polyphaser FIR-Resampler in C++20.*
 - Null dynamische Heap-Allokationen nach der Initialisierung.
 - Dedizierte Implementierungen für AVX2, ARM NEON sowie portable Fallbacks.
 - Lineare Phasenunterdrückung im Sperrbereich > 110 dB über das gesamte hörbare Spektrum.
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *Bare-Metal DSP-Bibliothek, maßgeschneidert für ARM Cortex-M Mikrocontroller.*
 - Kaskadierte Biquad-Filter für Festkommaformate Q15 und Q31.
 - Echtzeitfähige gefensterte FFT-Routinen mit deterministischer Zyklenzahl.
 - Optimiert für energiebegrenzte akustische Ereigniserkennung am Sensornetz-Rand.
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *Robuster akustischer Telemetrie-Daemon, geschrieben in sicherem `no_std` Rust.*
 - Entwickelt für verlustbehaftete, intermittierende Unterwasser-Akustikmodems und Satelliten-Uplinks.
 - Prioritätswarteschlangen-Kompaktierung verhindert Pufferüberläufe bei Verbindungsabbrüchen.
-- Vollständige automatisierte Testumgebung auf simulierter QEMU-Hardware.
+- Vollständige modulare Testumgebung auf simulierter QEMU-Hardware.
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *Open-Hardware Firmware für haptische Drehregler für Musiker und Sounddesigner.*
 - Regelkreis-Rückkopplung magnetischer Encoder mit PID-Geschwindigkeitsglättung.
 - Nativer Support für hochauflösenden Property Exchange gemäß USB MIDI 2.0.
@@ -89,7 +89,7 @@ Ich entwickle deterministische Firmware, harte Echtzeit-Audiopipelines und Edge-
 2. Jitter ist verheerender als Latenz; Vorhersehbarkeit ist das höchste Gut.
 3. Was sich nicht mit Oszilloskop oder perf nachweisen lässt, ist bloße Spekulation.
 4. Schaltplan, Quellcode und mechanische Fertigungstoleranzen müssen exakt dieselbe Sprache sprechen.
-5. Einfache Schaltungen mit präziser Firmware überdauern überladene Zustandsautomaten.
+5. Einfache Schaltungen mit präziser Firmware überdauern überladene Kontrollstrukturen.
 ```
 
 ---
@@ -108,5 +108,5 @@ Abseits von seriellen Konsolen und JTAG-Steckern:
 
 - **E-Mail**: `julian@vane-systems.se` (PGP-Schlüssel auf keys.openpgp.org hinterlegt)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **Standort**: Göteborg, Västra Götaland, Schweden [57.7089° N, 11.9746° E]

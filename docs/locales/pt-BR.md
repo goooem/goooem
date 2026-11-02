@@ -4,7 +4,7 @@
 
 ---
 
-# Julian Vane (`@julesvane`)
+# Julian Vane (`@goooem`)
 
 > Engenheiro de Sistemas Embarcados e Processamento Digital de Sinais de Áudio (DSP) em Tempo Real  
 > Radicado em Gotemburgo, Suécia · Atuando na fronteira entre registradores de hardware e acústica analógica.
@@ -56,25 +56,25 @@ Desenvolvo firmware determinístico, pipelines de áudio em tempo real estrito e
 
 ## 📦 Projetos Open Source em Destaque
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *Reamostrador polifásico FIR em C++20 de cabeçalho único (header-only) acelerado por SIMD.*
 - Zero alocações na heap em tempo de execução após a inicialização.
 - Implementações otimizadas para AVX2, ARM NEON e fallback portátil.
 - Atenuação da banda de rejeição com fase linear > 110 dB em todo o espectro audível.
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *Biblioteca bare-metal de processamento digital de sinais para microcontroladores ARM Cortex-M.*
 - Cascatas de filtros biquad em ponto fixo Q15 e Q31.
 - Rotinas FFT com janelamento em tempo real e contagem determinística de ciclos de clock.
 - Otimizada para detecção de anomalias acústicas em dispositivos de borda com severas restrições energéticas.
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *Daemon resiliente de telemetria acústica marinha desenvolvido em Rust seguro (`no_std`).*
 - Trata links intermitentes e sujeitos a perdas em modems acústicos e satélites.
 - Compactação por fila de prioridade para evitar estouro de buffer durante blecautes de comunicação.
 - Suíte completa de testes unitários executada diretamente em hardware simulado no QEMU.
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *Firmware de hardware aberto para controladores rotativos hápticos voltado a músicos e sound designers.*
 - Controle em malha fechada de encoder magnético com suavização de velocidade via PID.
 - Suporte nativo ao protocolo de troca de propriedades em alta resolução do padrão USB MIDI 2.0.
@@ -108,5 +108,5 @@ Longe dos cabos de depuração e interfaces seriais:
 
 - **E-mail**: `julian@vane-systems.se` (Chave PGP disponível em keys.openpgp.org)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **Localização**: Gotemburgo, Västra Götaland, Suécia [57.7089° N, 11.9746° L]

@@ -4,7 +4,7 @@
 
 ---
 
-# 줄리안 베인 (`@julesvane`)
+# 줄리안 베인 (`@goooem`)
 
 > 임베디드 시스템 & 실시간 오디오 DSP 엔지니어  
 > 스웨덴 예테보리 거주 · 하드웨어 레지스터와 아날로그 음향의 경계에서 작업합니다.
@@ -56,25 +56,25 @@
 
 ## 📦 주요 오픈소스 프로젝트
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *C++20 기반 헤더 전용 SIMD 가속 다상(Polyphase) FIR 리샘플러.*
 - 초기화 이후 런타임 힙 메모리 할당 0건 보장.
 - AVX2, ARM NEON 및 이식성 높은 폴백(Fallback) 구현체 제공.
 - 가청 주파수 대역 전반에서 선형 위상 저지 대역 감쇄비 > 110 dB 달성.
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *ARM Cortex-M 마이크로컨트롤러 전용 베어메탈 디지털 신호 처리 라이브러리.*
 - 고정소수점 Q15 및 Q31 바이쿼드(Biquad) 필터 캐스케이드.
 - 결정론적 사이클 클록을 보장하는 실시간 윈도우 기반 FFT 루틴.
 - 에너지 제약이 심한 엣지 환경의 음향 이상 이벤트 감지에 최적화.
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *안전한 `no_std` Rust로 작성된 복원력 있는 음향 텔레메트리 데몬.*
 - 패킷 손실률이 높고 간헐적인 수중 음향 모뎀 및 위성 상향 링크 채널 대응.
 - 통신 단절 시 버퍼 오버플로우를 방지하는 우선순위 큐 압축 메커니즘 탑재.
 - QEMU 가상 하드웨어 상에서 검증된 단위 테스트 하네스 내장.
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *음악가 및 사운드 디자이너를 위한 오픈 하드웨어 햅틱 로터리 컨트롤러 펌웨어.*
 - PID 속도 스무딩이 결합된 폐루프 자기식 인코더 피드백.
 - 네이티브 USB MIDI 2.0 고해상도 프로퍼티 교환(Property Exchange) 지원.
@@ -108,5 +108,5 @@
 
 - **이메일**: `julian@vane-systems.se` (PGP 키는 keys.openpgp.org에 등록됨)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **위치**: 스웨덴 베스트라예탈란드 예테보리 [북위 57.7089°, 동경 11.9746°]

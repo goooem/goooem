@@ -4,7 +4,7 @@
 
 ---
 
-# Julian Vane (`@julesvane`)
+# Julian Vane (`@goooem`)
 
 > Ingeniero de Sistemas Embebidos y Procesamiento Digital de Señales de Audio (DSP) en Tiempo Real  
 > Con sede en Gotemburgo, Suecia · Operando en el límite entre los registros de hardware y la acústica analógica.
@@ -56,25 +56,25 @@ Diseño firmware determinista, tuberías de audio de tiempo real estricto y nodo
 
 ## 📦 Proyectos de Código Abierto Destacados
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *Remuestreador polifásico FIR en C++20 acelerado por SIMD en un único archivo de cabecera.*
 - Cero asignaciones en memoria dinámica (heap) en tiempo de ejecución tras la inicialización.
 - Implementaciones optimizadas para AVX2, ARM NEON y una alternativa portátil de respaldo.
 - Rechazo en banda de atenuación de fase lineal > 110 dB en todo el espectro audible.
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *Biblioteca de procesamiento digital de señales bare-metal adaptada a microcontroladores ARM Cortex-M.*
 - Cascadas de filtros bicuadráticos (Biquad) en punto fijo Q15 y Q31.
 - Rutinas de FFT en tiempo real con ventanas de cálculo y recuento de ciclos de reloj deterministas.
 - Optimizado para la detección de eventos acústicos anómalos en nodos de borde con restricciones energéticas.
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *Demonio de telemetría acústica de alta resiliencia desarrollado en Rust seguro (`no_std`).*
 - Tolera enlaces con pérdidas e intermitencias en módems acústicos submarinos y satélites.
 - Compactación en cola de prioridad que previene desbordamientos de búfer durante períodos sin comunicación.
-- Banco de pruebas unitarias automatizado y ejecutable sobre hardware simulado en QEMU.
+- Banco de pruebas unitarias riguroso y ejecutable sobre hardware simulado en QEMU.
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *Firmware de controlador rotativo háptico de hardware abierto para músicos y diseñadores sonoros.*
 - Retroalimentación de codificador magnético en bucle cerrado con suavizado de velocidad PID.
 - Soporte nativo para el intercambio de propiedades en alta resolución bajo la norma USB MIDI 2.0.
@@ -108,5 +108,5 @@ Cuando me encuentro lejos de terminales serie y cables de depuración:
 
 - **Correo electrónico**: `julian@vane-systems.se` (Clave PGP disponible en keys.openpgp.org)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **Ubicación**: Gotemburgo, Västra Götaland, Suecia [57.7089° N, 11.9746° E]

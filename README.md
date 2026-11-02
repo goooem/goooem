@@ -4,7 +4,7 @@
 
 ---
 
-# Julian Vane (`@julesvane`)
+# Julian Vane (`@goooem`)
 
 > Embedded Systems & Real-Time Audio DSP Engineer  
 > Based in Gothenburg, Sweden · Operating at the boundary of hardware registers and analog acoustics.
@@ -56,25 +56,25 @@ I design deterministic firmware, hard real-time audio pipelines, and edge sensor
 
 ## 📦 Selected Open Source Projects
 
-### [poly-phase](https://github.com/julesvane/poly-phase)
+### [poly-phase](https://github.com/goooem/poly-phase)
 *Header-only SIMD-accelerated polyphase FIR resampler in C++20.*
 - Zero runtime heap allocation after initialization.
 - AVX2, ARM NEON, and portable fallback implementations.
 - Linear-phase rejection > 110 dB across the audible spectrum.
 
-### [whisper-dsp](https://github.com/julesvane/whisper-dsp)
+### [whisper-dsp](https://github.com/goooem/whisper-dsp)
 *Bare-metal digital signal processing library tailored for ARM Cortex-M microcontrollers.*
 - Fixed-point Q15 and Q31 biquad filter cascades.
 - Real-time windowed FFT routines with deterministic cycle counts.
 - Optimized for energy-constrained edge acoustic event detection.
 
-### [seafloor-stream](https://github.com/julesvane/seafloor-stream)
+### [seafloor-stream](https://github.com/goooem/seafloor-stream)
 *Resilient acoustic telemetry daemon written in safe `no_std` Rust.*
 - Handles lossy, intermittent acoustic modems and satellite uplink channels.
 - Priority-queue compaction prevents buffer overflow during communication blackouts.
 - Full unit test harness running on QEMU simulated hardware.
 
-### [knob-os](https://github.com/julesvane/knob-os)
+### [knob-os](https://github.com/goooem/knob-os)
 *Open-hardware haptic rotary controller firmware for musicians and sound designers.*
 - Closed-loop magnetic encoder feedback with PID velocity smoothing.
 - Native USB MIDI 2.0 High-Resolution Property Exchange support.
@@ -108,5 +108,5 @@ When away from serial terminals and debug headers:
 
 - **Email**: `julian@vane-systems.se` (PGP key available on keys.openpgp.org)
 - **Matrix**: `@jules:matrix.org`
-- **Mastodon**: `@julesvane@merveilles.town`
+- **Mastodon**: `@goooem@merveilles.town`
 - **Location**: Gothenburg, Västra Götaland, Sweden [57.7089° N, 11.9746° E]

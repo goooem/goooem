@@ -14,6 +14,7 @@ memory/
 GUIDE.md
 docs/ARCHITECTURE_MAP.md
 
-# OS Artifacts
+# OS & Verification Artifacts
+*.png
 .DS_Store
 Thumbs.db
